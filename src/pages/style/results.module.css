@@ -1,0 +1,64 @@
+.main
+{
+   
+    /* height: 73vh; */
+    min-height: 78vh;
+    height: auto;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    padding-top: 12vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+}
+.gify{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    margin-left: 4rem;
+}
+.gify img{
+    width: 30%;
+    height: 50%;
+    position: fixed;
+
+}
+.resultsArea
+{
+    flex: 2;
+}
+.resultsArea h1{
+    font-size: 3rem;
+    font-weight: 300;
+    color: #444;
+    margin-bottom: 1rem;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.stats p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #444;
+}
+.stats p span{
+    font-weight: bold;
+}
+
+.StatusArea{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-left:2rem ;
+
+}
+.resultsWithDucky{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
